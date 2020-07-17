@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var a =1000; // Here a is assigned to 1000 ans scope is global if you change the value at some point of time it will change
+        console.log(a);
+
+    
+
+        {
+            let a = 65; // its like local variable .. a is 65 until this bock of code
+            console.log(a);
+        }
+
+        a=50;
+        console.log(a); // Here a value is set to 50
+
+        const b='sagar'; // Value of a cannot be changed if its decalred as const
+
+        console.log(b);
+
+        b=35;// you will get error in console
+
+    </script>
+    <h1>Difference between var let and const</h1>
+</body>
+
+</html>
